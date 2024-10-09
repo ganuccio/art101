@@ -7,9 +7,9 @@
     border: solid 1px
     background-color:pink
  p{
-  .cursive {
+  .cursive 
     font-family: cursive;
-}
+
   div#img-box{
     float: right;
   }
@@ -19,5 +19,4 @@
   highlight{
     font-weight: bold;
     background-color:#f9b9d7
-  }
   }
