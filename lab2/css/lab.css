@@ -1,15 +1,15 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
+.minor-section 
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #ffffff;
-    background-color: #f9b9d7;
+    border: solid 1px
+    background-color:pink
  p{
-  * {
-    font-family: 'Century Gothic', sans-serif;
-  }
+  .cursive {
+    font-family: cursive;
+}
   div#img-box{
     float: right;
   }
