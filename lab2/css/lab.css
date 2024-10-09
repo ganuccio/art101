@@ -6,4 +6,18 @@
     margin-bottom: 10px;
     border: solid 1px #ffffff;
     background-color: #f9b9d7;
+ p{
+  * {
+    font-family: 'Century Gothic', sans-serif;
+  }
+  div#img-box{
+    float: right;
+  }
+  #img-box ig{
+    max-width: 50%
+  }
+  highlight{
+    font-weight: bold;
+    background-color:#f9b9d7
+  }
   }
