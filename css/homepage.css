@@ -1,5 +1,9 @@
 /* this css file will only style the homepage of our site */
 
 body {
-  background-image: url('11c4b47f628a671c3af71b64ff3e167d.jpg');
+  background-image: url(./img/music.jpg);
+}
+
+#my-portrait {
+  width: 200px;
 }
