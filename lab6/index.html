@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 6 - Arrays and Objects</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -23,29 +23,64 @@
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab X - Subject/Topic</h1>
+			<h1>Lab 6 - Lab 6: Arrays and Objects</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>Restate the challenge of the lab here.</p>
+					<p>We had to use arrays and refrence objects.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>What problems arose? How did you solve them? </p>
+					<p>I had some problems with my java consule because I was listing them wrong but I was able to fix the errors.  </p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Reflection</h2>
-					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
+					<p>This lab went well I had problems in my console which took a little bit of time to overcome but I eventually got it. Everything else when easy because i'm getting more used to hmtl.</p>
 			</div>
-
+			<div>
+				<h2>Script Output</h2>
+				<script src="js/lab.js"></script>
+				<p>//Define Variables
+					let myTransportation = ["make","model", "color", "year", "age"];
+					
+					
+					//Creat object
+					let myMainRide = {
+					  make: "Toyota",
+					  model: "Prius",
+					  color: "black",
+					  year: 2011,
+					  age: function() {
+						return 2024 - this.year;
+					  }
+					};
+					
+					// 
+					console.log(myMainRide.age()); // Output: 13
+					
+					// Output
+					document.writeln("My Main Ride: <pre>", 
+					 JSON.stringify(myMainRide, null, '\t'), "</pre>");</p> 
+			</div>
+		
 			<div class="minor-section">
 					<h2>Results</h2>
 					<div id="output"></div>
+				
+					<img id="hellokitty" src="./img/hellokittygeek.jpg" alt="hellokittygeek" />
 			</div>
 		</section>
 		<nav id="links">
-			<!-- Put links to other pages (including the homepage) here. -->
+				<h2>Labs</h2>
+				<ul>
+					<li><a href="index.html">Homepage</a></li>
+					<li><a href="file:///Users/gianna/Documents/GitHub/art101/lab2/index.html">Lab 2</a></li>
+					<li><a href="lab3/index.html">Lab 3</a></li>
+					<li><a href="lab4/index.html">Lab 4</a></li>
+					<li><a href="lab5/index.html">Lab 5</a></li>
+				</ul>
+			</nav>
 		</nav>
 	</main>
 </body>
