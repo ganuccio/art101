@@ -1,68 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-
 	<title>Lab 7 - Functions</title>
-
-
   	<meta charset="UTF-8" />
-
   	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	
-	
-	<link rel="stylesheet" type="text/css" href="../css/site.css">
 
-	<link rel="stylesheet" type="text/css" href="css/lab7.css">
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	
 	
 	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-
-	<script type="text/javascript" src="./js/lab7.js" DEFER></script>
+	<script type="text/javascript" src="./js/lab.js"></script>
 </head>
 <body>
-	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
+	<!-- Style this page by changing the CSS in ../css/site.css or css/lab7.css -->
 	<main id="content">
 		<section>
-			<h1>Lab 7 - Functions </h1>
+			<h1>Lab 7 - Functions</h1>
 			<div class="minor-section">
-					<h2>Challenge</h2>
-					<p>We had to write java script with a function that takes user input. </p>
+				<h2>Challenge</h2>
+				<p>We had to write JavaScript with a function that takes user input.</p>
 			</div>
 
 			<div class="minor-section">
-					<h2>Problems</h2>
-					<p> I had some problems making my own index page for lab 7 and it not coming out like the template ones.  </p>
+				<h2>Problems</h2>
+				<p>I had some problems making my own index page for lab 7 and it not coming out like the template ones.</p>
 			</div>
 
 			<div class="minor-section">
-					<h2>Reflection</h2>
-					<p>This lab went well I had problems in my console which took a little bit of time to overcome but I eventually got it. Everything else when easy because i'm getting more used to hmtl.</p>
+				<h2>Reflection</h2>
+				<p>This lab went okay with JavaScript, but I did have some problems with the lab 7 index, so I got help in class.</p>
 			</div>
-			<div>
-				<div>
-					<h2>Script Output</h2>
-					<script src="js/lab7.js"></script>
-				</div>
-			</div>
-		
+
 			<div class="minor-section">
-					<h2>Results</h2>
-					<div id="output"></div>
-				
-					<img id="desighn" src="./img/desighn.jpg" alt="desighn" />
+				<h2>Script Output</h2>
+				<!-- Removed duplicate script tag here -->
+			</div>
+
+			<div class="minor-section">
+				<h2>Results</h2>
+				<div id="output"></div>
+				<img id="desighn" src="./img/desighn.jpg" alt="desighn" />
 			</div>
 		</section>
+
 		<nav id="links">
-				<h2>Labs</h2>
-				<ul>
-					<li><a href="index.html">Homepage</a></li>
-					<li><a href="file:///Users/gianna/Documents/GitHub/art101/lab2/index.html">Lab 2</a></li>
-					<li><a href="lab3/index.html">Lab 3</a></li>
-					<li><a href="lab4/index.html">Lab 4</a></li>
-					<li><a href="lab5/index.html">Lab 5</a></li>
-					<li><a href="lab6/index.html">Lab 6</a></li>
-				</ul>
-			</nav>
+			<h2>Labs</h2>
+			<ul>
+				<li><a href="index.html">Homepage</a></li>
+				<li><a href="file:///Users/gianna/Documents/GitHub/art101/lab2/index.html">Lab 2</a></li>
+				<li><a href="lab3/index.html">Lab 3</a></li>
+				<li><a href="lab4/index.html">Lab 4</a></li>
+				<li><a href="lab5/index.html">Lab 5</a></li>
+				<li><a href="lab6/index.html">Lab 6</a></li>
+			</ul>
 		</nav>
 	</main>
 </body>
 </html>
+
