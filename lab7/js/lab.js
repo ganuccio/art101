@@ -21,6 +21,9 @@ function sortUserName() {
     return nameSorted;
 }
 
+//callfunction and print to doc
+document.writeln(sortUserName());
+
 //output
 document.writeln("Oh hey I've fixed your name: ",
     sortUserName(), "</br>");
