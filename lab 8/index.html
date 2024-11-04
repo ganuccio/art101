@@ -2,7 +2,8 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab 6 - Arrays and Objects</title>
+	<title>Lab 8: Anon Functions and Callbacks</title>
+	<script src="js/lab8.js" defer></script>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -12,63 +13,43 @@
 	<!-- Include a sitewide CSS file for consistent styling across the site -->
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<!-- Lab-specifc CSS file for any special styling of this particular page -->
-	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<link rel="stylesheet" type="text/css" href="css/lab8.css">
 	
 	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
 	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
-	<script type="text/javascript" src="./js/lab.js" DEFER></script>
+	<script type="text/javascript" src="./js/lab8.js" DEFER></script>
 </head>
 <body>
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab 6 - Lab 6: Arrays and Objects</h1>
+			<h1>Lab 8: Anon Functions and Callbacks</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>We had to use arrays and refrence objects.</p>
+					<p>We had to experiment with anonymous functions and callbacks.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>I had some problems with my java consule because I was listing them wrong but I was able to fix the errors.  </p>
+					<p>I didn't have any problems with the callback code suprisingly. </p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Reflection</h2>
-					<p>This lab went well I had problems in my console which took a little bit of time to overcome but I eventually got it. Everything else when easy because i'm getting more used to hmtl.</p>
+					<p>This lab went good and I'm happy its halloween soon.</p>
 			</div>
 			<div>
 				<h2>Script Output</h2>
-				<script src="js/lab.js"></script>
-				<p>//Define Variables
-					let myTransportation = ["make","model", "color", "year", "age"];
-					
-					
-					//Creat object
-					let myMainRide = {
-					  make: "Toyota",
-					  model: "Prius",
-					  color: "black",
-					  year: 2011,
-					  age: function() {
-						return 2024 - this.year;
-					  }
-					};
-					
-					// 
-					console.log(myMainRide.age()); // Output: 13
-					
-					// Output
-					document.writeln("My Main Ride: <pre>", 
-					 JSON.stringify(myMainRide, null, '\t'), "</pre>");</p> 
+				<script src="js/lab8.js"></script>
+				
 			</div>
 		
 			<div class="minor-section">
 					<h2>Results</h2>
 					<div id="output"></div>
 				
-					<img id="hellokitty" src="./img/hellokittygeek.jpg" alt="hellokittygeek" />
+					
 			</div>
 		</section>
 		<nav id="links">
