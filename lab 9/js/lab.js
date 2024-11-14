@@ -1,21 +1,14 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - This simple JavaScript/jQuery script uses buttons to modify some elements on the page
+// Author: Gia Nuccio
+// Date: 11/4/24
 
-// Constants
 
-// Functions
+// add button to challenge section
+$("#challenge").append("<button id='button-challenge'>Make Special</button>");
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
+// add a click listener to the challenge button
+$("button-challenge").click(function(){
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
-
-// let's get this party started
-main();
+  // now add (or subtract) the "special" class to the section
+  $("#challenge").toggleClass("special");
+});
