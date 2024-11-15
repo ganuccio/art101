@@ -18,10 +18,12 @@ function sortingHat(str) {
   }
 }
 
-let myButton = document.getElementById("button");
-myButton.addEventListener("click", function() {
-  let name = document.getElementById("input").value;
-  let house = sortingHat(name);
-  let newText = "<p>The Sorting Hat has sorted you into " + house + "</p>";
-  document.getElementById("output").innerHTML = newText;
+// Attach click handler to submit button using jQuery
+$("#button").click(function() {
+  console.log("Button clicked");
+  var name = $("#input").val();
+  console.log("Name: " + name);
+  var house = sortingHat(name);
+  console.log("House: " + house);
+  $("#output").html("<h1>" + house + "</h1>");
 });
