@@ -1,3 +1,8 @@
+//index.js Lab 11- JavaScript Events and Forms
+//Author: Gia Nuccio
+//Date: 11/11/24
+
+
 // index.js - Functions lab
 // Author: Gia Nuccio
 // Date: 10/25/24
