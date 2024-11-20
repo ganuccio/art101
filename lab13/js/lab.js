@@ -2,24 +2,38 @@
 // Author: Gia Nuccio
 // Date: 11/18/24
 
-function fizzBuzzBoom() {
-  const outputDiv = document.getElementById("output");
-  let outputHTML = ""; // Store results as a single string
+function fizzBuzz() {
+  let oneLongString = ""; // Initialize an empty string
 
-  for (let i = 1; i <= 200; i++) {
-    let result = "";
+  // Loop through numbers 1 to 200
+  for (let num = 1; num <= 200; num++) {
+    let output = `${num}: `; // Start with the number
 
-    if (i % 3 === 0) result += "Fizz";
-    if (i % 5 === 0) result += " Buzz";
-    if (i % 7 === 0) result += " Boom";
+    if (num % 3 === 0) {
+      output += "Fizz";
+    }
+    if (num % 5 === 0) {
+      output += "Buzz";
+    }
+    if (num % 7 === 0) {
+      output += "Boom";
+    }
 
-    // Append result or the number itself
-    outputHTML += result.trim() ? `${result.trim()}!<br>` : `${i}<br>`;
+    // Append the result or the number itself
+    if (output === `${num}: `) {
+      output = `${num}`;
+    }
+    oneLongString += output + "<br>";
   }
 
-  // Add results to the output div
-  outputDiv.innerHTML = outputHTML;
+  // Add the output to the div (ensure correct selector)
+  $("#output").html(oneLongString);
 }
 
-// Ensure function runs after DOM loads
-document.addEventListener("DOMContentLoaded", fizzBuzzBoom);
+// Run the function
+fizzBuzz();
+
+// Ensure jQuery waits for the DOM to be fully loaded
+$(document).ready(function () {
+  fizzBuzz(); // Call your function here
+});

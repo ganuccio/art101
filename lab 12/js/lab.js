@@ -3,23 +3,32 @@
 // Date: 11/18/24
 
 function fizzBuzzBoom() {
-  const outputDiv = document.getElementById("output");
-  let outputHTML = ""; 
+  let oneLongString = " "; //Initalize empty string
+ 
   // Store the results as a single string for efficiency
 
-  for (let i = 1; i <= 200; i++) {
-    let result = "";
+  for (let i = 1; num <= 200; num++) {
+    let output = `${num}: `; //start with number
 
-    if (i % 3 === 0) result += "Fizz";
-    if (i % 5 === 0) result += "Buzz";
-    if (i % 7 === 0) result += "Boom";
+    if (num % 3 === 0) {
+      output += "Fizz";
+    }
+    if (num % 5 === 0) {
+      output += "Buzz";
+    }
+    if (num % 7 === 0) {
+      output += "Boom";
+    }
 
   // Append the result or the number itself
-    outputHTML += result ? `${result}!<br>` : `${i}<br>`;
+    if (output === `${num}: `){
+        output = `${num}`;
   }
+      oneLongString += output + "<br>";
+}
 
   // Add the output to the div
-  outputDiv.innerHTML = outputHTML;
+ $("output").html(oneLongString);
 }
 
 // Run the function
